@@ -69,13 +69,15 @@ Did you noticed something, the numbers are sorted in descending order, that is b
 :thought_balloon: Doesn't it reminds you of Max Heap. Yay ! :open_mouth:
 
 
+#### Thread Safety 
+
 ```
 Note that PriorityQueue implementation in Java is not synchronized. 
 So multiple threads should not access a PriorityQueue instance concurrently if,
 any of the threads modifies the queue. Instead, use the thread-safe PriorityBlockingQueue class.
 ```
 
-**:star: PriorityQueue implementation Runtime  :star:**
+### :star: PriorityQueue implementation Runtime  :star:
  
 1. O(log(n)) time for the enqueing and dequeing methods (add and offer, poll, remove())
 2. O(n) linear time for the remove(Object) and contains(Object) methods; 
