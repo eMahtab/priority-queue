@@ -73,4 +73,6 @@ Did you noticed something, the numbers are sorted in descending order, that is b
 **Note that PriorityQueue implementation in Java is not synchronized. So multiple threads should not access a PriorityQueue instance concurrently if any of the threads modifies the queue. Instead, use the thread-safe PriorityBlockingQueue class.**
 
 
+:star: Important  :star:
+
 
