@@ -27,6 +27,9 @@ public class App {
 ```
 -1 , 0 , 1 , 5 , 9 , 10 , 
 ```
+Did you noticed something, the numbers are sorted in ascending order, that is because, in the above priority queue, the minimum number amongst all the numbers, is at the head of the queue. And since calling `poll()` returns the element at the head of the queue, we always get the minimum number among all the numbers in the queue.
+
+:thought_balloon: Doesn't it reminds you of Min Heap. Yay ! :open_mouth:
 ## Example : 2
 
 ```java
