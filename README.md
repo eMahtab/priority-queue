@@ -21,7 +21,7 @@ public class App {
 	}
 }
 ```
-**Output : **
+#### Output :
 ```
 -1 , 0 , 1 , 5 , 9 , 10 , 
 ```
@@ -53,7 +53,7 @@ public class App {
 	}
 }
 ```
-**Output : **
+#### Output :
 ```
 10 , 9 , 5 , 1 , 0 , -1 , 
 ```
