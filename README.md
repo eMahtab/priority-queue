@@ -80,5 +80,5 @@ any of the threads modifies the queue. Instead, use the thread-safe PriorityBloc
 ### :star: PriorityQueue implementation Runtime  :star:
  
 1. O(log(n)) time for the enqueing and dequeing methods (add and offer, poll, remove())
-2. O(n) linear time for the remove(Object) and contains(Object) methods; 
-3. O(1) constant time for the retrieval methods (peek, element, and size).
+2. O(n) linear time for the remove(Object) and contains(Object) methods
+3. O(1) constant time for the retrieval methods (peek, element, and size)
