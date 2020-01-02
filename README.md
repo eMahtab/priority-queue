@@ -16,13 +16,15 @@ public class App {
 		pq.add(0);
 		pq.add(-1);
 		while(!pq.isEmpty()) {
-			System.out.println(pq.poll());
+		   System.out.print(pq.poll() + " , ");
 		}
 	}
 }
 ```
-
-
+**Output : **
+```
+-1 , 0 , 1 , 5 , 9 , 10 , 
+```
 ## Example : 2
 
 ```java
@@ -46,8 +48,12 @@ public class App {
 		pq.add(0);
 		pq.add(-1);
 		while(!pq.isEmpty()) {
-			System.out.println(pq.poll());
+			System.out.print(pq.poll() + " , ");
 		}
 	}
 }
+```
+**Output : **
+```
+10 , 9 , 5 , 1 , 0 , -1 , 
 ```
