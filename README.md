@@ -1,5 +1,7 @@
 # Priority Queue
 
+First thing first, priority queues are awesome :wink:
+
 ## Example : 1
 
 ```java
